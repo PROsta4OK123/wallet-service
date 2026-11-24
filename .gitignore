@@ -1,0 +1,58 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+out/
+target/
+.m2-cache/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Local environment and secrets ###
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.secrets
+
+### Logs and runtime files ###
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+*.pid
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Windows ###
+Thumbs.db
+Desktop.ini
+
+### Linux ###
+*~
+.directory
